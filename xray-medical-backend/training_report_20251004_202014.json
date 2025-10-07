@@ -1,0 +1,13 @@
+{
+  "timestamp": "20251004_202014",
+  "model_path": "xray_classifier_20251004_202014.h5",
+  "model_type": "demo_cnn",
+  "accuracy": 0.85,
+  "dataset_size": 160,
+  "image_size": [
+    128,
+    128
+  ],
+  "epochs_trained": 15,
+  "note": "Demo model for hybrid analyzer testing"
+}

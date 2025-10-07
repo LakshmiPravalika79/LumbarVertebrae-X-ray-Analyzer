@@ -1,0 +1,117 @@
+/* Global Styles for Medical X-ray Analyzer */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f7fa;
+}
+
+code {
+  font-family: 'Roboto Mono', 'Monaco', 'Menlo', 'Consolas', monospace;
+}
+
+/* Medical grade styling */
+.medical-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Custom scrollbar for medical theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0066cc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0052a3;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+}
+
+/* Animation utilities */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Medical accessibility enhancements */
+.high-contrast {
+  filter: contrast(1.2);
+}
+
+.focus-visible:focus {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+/* File upload specific styles */
+.upload-zone {
+  transition: all 0.2s ease-in-out;
+}
+
+.upload-zone:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Result table enhancements */
+.result-row:hover {
+  background-color: rgba(0, 102, 204, 0.04) !important;
+}
+
+/* Medical status indicators */
+.status-normal {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.status-abnormal {
+  color: #d32f2f;
+  font-weight: 600;
+}
+
+.status-warning {
+  color: #ed6c02;
+  font-weight: 600;
+}

@@ -1,0 +1,6 @@
+{
+  "timestamp": "20251004_201143",
+  "accuracy": 0.5,
+  "model_path": "xray_classifier_20251004_201143.h5",
+  "dataset_size": 300
+}
