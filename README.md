@@ -57,10 +57,10 @@ npm install
 # Start the development server
 npm start
 ```
-Frontend will be available at: http://localhost:3000
+Frontend will be available at: http://localhost:3001
 
 ### 3. Access the Application
-- **Web Interface**: http://localhost:3000
+- **Web Interface**: http://localhost:3001
 - **API Documentation**: http://localhost:8000/docs
 - **API Health Check**: http://localhost:8000/health
 

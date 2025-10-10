@@ -1,1 +1,34 @@
+# Datasets
 datasets/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+my_env/
+.env
+.env.*
+
+# AI / ML models
+*.h5
+*.keras
+*.pt
+*.onnx
+
+# Training outputs
+training_report_*.json
+uploads/
+*.db
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.key
+*.pem
+

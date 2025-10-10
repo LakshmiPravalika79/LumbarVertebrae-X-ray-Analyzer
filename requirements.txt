@@ -1,0 +1,31 @@
+# MediScan Pro - Backend Dependencies
+# Core FastAPI and server components
+fastapi==0.117.1
+uvicorn[standard]==0.37.0
+python-multipart==0.0.20
+
+# Image processing and computer vision
+opencv-python==4.12.0.88
+pillow==11.3.0
+numpy==2.2.6
+scikit-image==0.24.0
+
+# Database and ORM
+sqlalchemy==2.0.43
+aiofiles==24.1.0
+
+# Security and authentication (for future use)
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Medical imaging (for future DICOM support)
+# pydicom==3.0.1  # Uncomment when DICOM support is needed
+
+# Development and testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1  # For testing FastAPI endpoints
+
+# Monitoring and logging
+structlog==24.4.0
+python-json-logger==3.0.0
